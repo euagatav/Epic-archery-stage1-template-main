@@ -4,7 +4,7 @@ class Player {
       isStatic: true
     };
 
-    //this.body = Bodies.rectangle(x, y, width, height, options);
+    this.body = Bodies.rectangle(x, y, width, height, options);
     //this.body = rectangle(x, y, width, height, options);
     //this.body = Bodies.rect(x, y, width, height, options);
     //this.body = rect(x, y, width, height, options);

@@ -18,7 +18,7 @@ function setup() {
   playerBase = new PlayerBase(300, random(450, height - 300), 180, 150);
   
  // player = new ( 340, playerBase.position.y - 112, 120, 120);
- //player = new Player(285, playerBase.body.position.y - 153, 50, 180);
+ player = new Player(285, playerBase.body.position.y - 153, 50, 180);
  // player =  Player( 340, playerBase.position.y - 112, 120, 120);
  // player= new Player( )
 
@@ -55,7 +55,7 @@ function draw() {
   //display();
   //playerdisplay();
   //player();
-  //player.display();
+  player.display();
   
 
   computerBase.display();
